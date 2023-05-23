@@ -1,0 +1,39 @@
+/* body {
+    background-color: lightgray;
+} */
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .success-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .success-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .success-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .success-button:hover {
+    background-color: #0056b3;
+  }
+  

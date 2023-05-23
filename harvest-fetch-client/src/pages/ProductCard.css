@@ -1,0 +1,20 @@
+.container-product {
+    margin-right: 40px;
+}
+
+.product-image {
+    object-fit: cover;
+    /* height: 450px; */
+}
+
+@media (max-width: 500px) {
+    .container-product {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 280px){
+    .container-product {
+        margin-left: -30px;
+    }
+}

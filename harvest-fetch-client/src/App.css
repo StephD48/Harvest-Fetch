@@ -1,0 +1,13 @@
+body {
+    margin: 0 !important;
+}
+
+.main {
+    min-height: 80vh;
+}
+
+@media (max-height: 914px){
+    .main {
+        min-height: 1vh;
+    }
+}

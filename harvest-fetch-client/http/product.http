@@ -1,0 +1,29 @@
+@url = http://localhost:8080/api/product
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJIYXJ2ZXN0LUZldGNoLUFQSSIsInN1YiI6ImZhcm1lciIsImFwcFVzZXJJZCI6MiwiYXV0aG9yaXRpZXMiOlsiRkFSTUVSIl0sImV4cCI6MTY4MDcyNTUxM30.1D4GacXfKzn_BeEWjUIAk7PddxB2_RV7b3s9mgbDay8
+
+GET {{url}} HTTP/1.1
+
+###
+
+GET {{url}}/1 HTTP/1.1
+
+###
+
+POST http://localhost:8080/authenticate HTTP/1.1
+Content-Type: application/json
+
+{
+    "userName": "farmer",
+    "password": "farmer"
+}
+
+###
+
+POST {{url}} HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+{
+    "productName": "Carrots",
+    "pictureUrl": "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+}

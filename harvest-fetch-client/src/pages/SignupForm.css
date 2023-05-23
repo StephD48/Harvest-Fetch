@@ -1,0 +1,51 @@
+.form-signup {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-signup h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  
+  .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+    background-color: green;
+    border-color: darkgreen;
+    
+  }
+
+  .btn-outline-success {
+    width: 100%;
+  }
+
+  
+  .btn-warning {
+    width: 100%;
+    margin-top: 10px;
+    background-color: green;
+    border-color: rgb(8, 70, 8);
+    color: #fff;
+  }
+  
+  .alert-danger {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+  }

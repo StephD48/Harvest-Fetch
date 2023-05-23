@@ -1,0 +1,47 @@
+
+ footer{ 
+    bottom:0;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background: #85a3ba;
+    padding: 30px;
+    color: white;
+    
+} 
+
+
+li {
+    list-style: none;
+}
+
+.fa {
+    font-size: 30px;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.fa:hover {
+    opacity: .7;
+    color: white;
+}
+
+.fa-facebook {
+    background: #36454F;
+    color: #85a3ba;
+}
+
+.fa-twitter {
+    background: #36454F;
+    color: #85a3ba;
+}
+
+.fa-instagram {
+    background: #36454F;
+    color: #85a3ba;
+}

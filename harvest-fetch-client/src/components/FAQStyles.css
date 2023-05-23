@@ -1,0 +1,26 @@
+.container-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.faq-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.question {
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.answer {
+    margin-top: 5px;
+    font-style: italic;
+}

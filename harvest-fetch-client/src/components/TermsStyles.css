@@ -1,0 +1,43 @@
+#header {
+    width: 100%;
+}
+
+#terms {
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.container-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bg {
+    /* background-size: cover; */
+}
+
+img {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+
+.title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+ul.bullets {
+    list-style-type: disc;
+    font-style: italic;
+}
